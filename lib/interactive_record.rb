@@ -54,6 +54,6 @@ class InteractiveRecord
   end
   
   def self.find_by_name(name)
-    sql = "SELECT "
+    sql = "SELECT * FROM #{table_name_for_insert}"
   
 end
