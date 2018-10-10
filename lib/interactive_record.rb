@@ -41,7 +41,8 @@ class InteractiveRecord
   
   def values_for_insert
     values = []
-    self.
+    self.class.column_names.each do |col| 
+      
   end
   
 end
