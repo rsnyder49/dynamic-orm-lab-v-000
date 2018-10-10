@@ -21,4 +21,6 @@ class InteractiveRecord
     column_names.compact 
   end 
   
+  def 
+  
 end
