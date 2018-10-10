@@ -25,4 +25,6 @@ class InteractiveRecord
     attr_accessor col.to_sym 
   end
   
+  def initialize(option = {})
+  
 end
