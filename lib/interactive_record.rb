@@ -16,7 +16,8 @@ class InteractiveRecord
     column_names = []
     
     table_info.each do |col|
-      column_names << col["name"]
+      column_names << col["name"] 
+    end 
     
   end 
   
