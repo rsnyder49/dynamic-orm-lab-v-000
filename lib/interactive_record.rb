@@ -36,6 +36,7 @@ class InteractiveRecord
   end 
   
   def col_names_for_insert
-    column_names.each do |col|
+    column_names.delete_if { |col| col == "id" } 
+  end 
   
 end
